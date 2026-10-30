@@ -1,0 +1,18 @@
+{
+  "dpi": 600,
+  "dimensions_px": [
+    2716,
+    4908
+  ],
+  "pdf_sha256": "168d8cf0700e3ab313362323fb95400dd75141af6a5f5e31cdd117db54682277",
+  "png_sha256": "b1316d999af0ebac25e49c412872ebea40c2ebf96a2833e2ded8186b846ac5ac",
+  "possible_page_clipping": false,
+  "method": "direct-vector-pdf-rasterization",
+  "id": "projected-features",
+  "title": "Projected feature architecture",
+  "mode": "image-only with PaddleOCR and generated icon",
+  "source": "User-supplied Figure 3 architecture screenshot; bibliographic identity not supplied",
+  "limitations": "Weather icon is a replaceable GPT image_gen PNG. Text, tensors, grids, gradients, paths and frames are native TikZ.",
+  "note": "README image pair only; complete editable results and review/OCR records remain local.",
+  "input_sha256": "249edc9cb2c70e90d6e80ce7c251c15b54fabff718d38747f4f984733db3b7d0"
+}

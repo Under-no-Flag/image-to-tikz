@@ -1,0 +1,58 @@
+{
+  "synthetic": true,
+  "generator": "built-in image_gen",
+  "cases": [
+    {
+      "difficulty": 1,
+      "image": "test-images/generated/01-simple-cnn.png",
+      "dimensions_px": [
+        1774,
+        887
+      ],
+      "sha256": "f1c2f857b394d5c07939587c27ac5f57859e001c4755f98f80d32c3b46705556",
+      "core_module_count": 6,
+      "visual_inspection": "completed for labels, module count and principal connection patterns",
+      "ocr_status": "not_run",
+      "tikz_status": "not_run"
+    },
+    {
+      "difficulty": 2,
+      "image": "test-images/generated/02-dual-branch-fusion.png",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "sha256": "7e0a561994321438ab6e8a0a9609acc4b5d9171ac54ac385201560bece398cd2",
+      "core_module_count": 8,
+      "visual_inspection": "completed for labels, module count and principal connection patterns",
+      "ocr_status": "not_run",
+      "tikz_status": "not_run"
+    },
+    {
+      "difficulty": 3,
+      "image": "test-images/generated/03-encoder-decoder-skips.png",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "sha256": "e1f6407735999832407b2f9d7a3588e38b618a604f38a7e14bf694379597ab8b",
+      "core_module_count": 9,
+      "visual_inspection": "completed for labels, module count and principal connection patterns",
+      "ocr_status": "not_run",
+      "tikz_status": "not_run"
+    },
+    {
+      "difficulty": 4,
+      "image": "test-images/generated/04-multitask-roadmap-feedback.png",
+      "dimensions_px": [
+        1536,
+        1024
+      ],
+      "sha256": "84753444e5abf9e9b1563b57bb6beb71e47c52a2595773bedf0f8807ce2f8a52",
+      "core_module_count": 22,
+      "visual_inspection": "completed for labels, module count and principal connection patterns",
+      "ocr_status": "not_run",
+      "tikz_status": "not_run"
+    }
+  ]
+}

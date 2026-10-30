@@ -1,0 +1,18 @@
+{
+  "dpi": 600,
+  "dimensions_px": [
+    4094,
+    8786
+  ],
+  "pdf_sha256": "e8973857efaf228bfce2c2ea537d900ba38b9b75df27a52a87909a6faaabb0b1",
+  "png_sha256": "c2e03856602ccbecf60ef336d2da294d723c6ed8d798df100d574a45a22f459d",
+  "possible_page_clipping": false,
+  "method": "direct-vector-pdf-rasterization",
+  "id": "rail-roadmap",
+  "title": "轨道交通客流技术路线",
+  "mode": "image-only with PaddleOCR; repaired after first render",
+  "source": "孔佳鑫《基于深度学习的城市轨道交通车站客流状态识别与仿真研究》, supplied page 14, Figure 1-2 body",
+  "limitations": "One YOLO11-DeepSort label has a different two-line break. Stroke calibration is an estimate from blurred pixels, not recovery of the original vector width.",
+  "note": "README image pair only; complete editable results and review/OCR records remain local.",
+  "input_sha256": "db5ad6a5c71fbc8beb20544c030535f8d1ffa58278eb86051f32e5b22e08cff2"
+}

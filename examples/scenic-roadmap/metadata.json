@@ -1,0 +1,18 @@
+{
+  "dpi": 600,
+  "dimensions_px": [
+    3601,
+    4778
+  ],
+  "pdf_sha256": "349372eba81d12d5382a1b7d66ee5834e239817b7e2938ec8cbb974ab0523a2e",
+  "png_sha256": "7fcdb2d52f754052133375066026fda47bdf9a7d94b7477684562bd2438c0aa5",
+  "possible_page_clipping": false,
+  "method": "direct-vector-pdf-rasterization",
+  "id": "scenic-roadmap",
+  "title": "景区研究技术路线",
+  "mode": "image-only with PaddleOCR; repaired after first render",
+  "source": "User-supplied Snipaste screenshot, Figure 4 技术路线图; bibliographic identity not supplied",
+  "limitations": "OCR evidence supports 9 of 52 text nodes; 43 manually transcribed and visually checked. Font metrics/antialiasing remain approximate.",
+  "note": "README image pair only; complete editable results and review/OCR records remain local.",
+  "input_sha256": "10c4a373584918c74b01119cd9d7a8467fe04c49235c05484f34b6017c124a29"
+}

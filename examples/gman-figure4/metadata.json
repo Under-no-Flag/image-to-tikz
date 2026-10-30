@@ -1,0 +1,18 @@
+{
+  "dpi": 600,
+  "dimensions_px": [
+    3978,
+    1852
+  ],
+  "pdf_sha256": "e88cdc43eab4e8a256431b1bf4aa0eb45069ea1b0331485ad79014ab535ad57f",
+  "png_sha256": "5a9cb7295587074dda38a7fc3f794951b9cf25145547f7d00c02efb42a307e01",
+  "possible_page_clipping": false,
+  "method": "direct-vector-pdf-rasterization",
+  "id": "gman-figure4",
+  "title": "GMAN Figure 4",
+  "mode": "image-only with PaddleOCR",
+  "source": "User-supplied GMAN-p04-diagram.png; Figure 4 body only",
+  "limitations": "Crop [40,315,485,520]. Low-resolution shadows, glow and font metrics are approximations. Other page text excluded.",
+  "note": "README image pair only; complete editable results and review/OCR records remain local.",
+  "input_sha256": "a05393bb1900e6a7d8f685e76e68c0ced83bb623070d6a56c28e8a8027125c32"
+}

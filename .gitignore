@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+references/Deep-Learning-TikZ/
+outputs/
+test-images/*
+!test-images/README.md
+dist/
+.env
+.env.*
+*.aux
+*.log
+*.out
+*.positions

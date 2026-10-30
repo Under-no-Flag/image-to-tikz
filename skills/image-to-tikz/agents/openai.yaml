@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片转可编辑 TikZ"
+  short_description: "用 PaddleOCR 重建技术路线图，统一样式、字号、对齐和相对布局"
+  default_prompt: "使用 $image-to-tikz 把这张技术路线图重建为可编辑 TikZ，统一样式并编译检查。"

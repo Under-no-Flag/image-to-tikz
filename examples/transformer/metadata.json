@@ -1,0 +1,18 @@
+{
+  "dpi": 600,
+  "dimensions_px": [
+    5767,
+    3434
+  ],
+  "pdf_sha256": "df36e74072723637d098d5ca7c831547b8cf83f48eb1046973f2cafa500aa261",
+  "png_sha256": "954b0d87616efcbf445488e82eaa20bdbfb835c46375e4751b1aeeacca629824",
+  "possible_page_clipping": false,
+  "method": "direct-vector-pdf-rasterization",
+  "id": "transformer",
+  "title": "Transformer",
+  "mode": "source-assisted correction after overturned image-only acceptance",
+  "source": "maximxue/Deep-Learning-TikZ, chapter8 - Transformer Architecture Extended",
+  "limitations": "Image-only attempt added unsupported connections/labels. This separate correction removes them; curves/colors remain approximations.",
+  "note": "README image pair only; complete editable results and review/OCR records remain local.",
+  "input_sha256": "5d67d88ef03afdec7bb1972310a15cadb280c3169b94f25d2efeb73c8e5df813"
+}

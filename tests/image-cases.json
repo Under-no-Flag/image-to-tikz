@@ -1,0 +1,42 @@
+{
+  "evaluation": "image-only; no target source consulted; isolated gpt-6-astra/high reconstruction plus independent reviewer",
+  "cases": [
+    {
+      "id": "pasted-architecture-image-only-001",
+      "input": "test-images/已粘贴 2026-10-30 下午11.03.00.png",
+      "builder": "tests/cases/pasted_architecture_image.py",
+      "result": "accepted-with-disclosed-visual-approximations"
+    },
+    {
+      "id": "gman-image-only-001",
+      "input": "test-images/GMAN-p04-diagram.png",
+      "scope": "Figure4 diagram only",
+      "crop_xyxy": [
+        40,
+        315,
+        485,
+        520
+      ],
+      "builder": "tests/cases/gman_image.py",
+      "result": "accepted-with-disclosed-visual-approximations"
+    },
+    {
+      "id": "rail-roadmap-image-only-001",
+      "input": "test-images/基于深度学习的城市轨道交通车站客流状态识别与仿真研究_孔佳鑫_14.png",
+      "crop_xyxy": [
+        880,
+        510,
+        2695,
+        4450
+      ],
+      "builder": "tests/cases/rail_roadmap_image.py",
+      "result": "accepted after local repairs; first-pass preserved; line-wrap difference disclosed"
+    },
+    {
+      "id": "scenic-roadmap-image-only-001",
+      "input": "test-images/Snipaste_20261030_232726.png",
+      "builder": "tests/cases/scenic_roadmap_image.py",
+      "result": "accepted after local repair; first-pass preserved; OCR coverage incomplete"
+    }
+  ]
+}

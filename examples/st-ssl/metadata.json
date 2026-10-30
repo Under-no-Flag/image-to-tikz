@@ -1,0 +1,18 @@
+{
+  "dpi": 600,
+  "dimensions_px": [
+    5388,
+    1560
+  ],
+  "pdf_sha256": "88965f87751579aba15fc33abb4bf445751e8835cdd812f23a2f33bf26c34b56",
+  "png_sha256": "b4364e8e23da7c656e03bd8f8f9523c7acb994d7db24441f8881070b1b9668b4",
+  "possible_page_clipping": false,
+  "method": "direct-vector-pdf-rasterization",
+  "id": "st-ssl",
+  "title": "ST-SSL",
+  "mode": "image-only with PaddleOCR",
+  "source": "User-supplied download.png, ST-SSL architecture illustration",
+  "limitations": "Low-resolution small graph details and typography are approximations; no target source consulted.",
+  "note": "README image pair only; complete editable results and review/OCR records remain local.",
+  "input_sha256": "f9a8ef4a42bbbb56b3bd26d4ef7ce26949028bee4d08301e1b1b206e79314a26"
+}

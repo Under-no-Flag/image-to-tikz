@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "fonts": {
+    "body": {"size_pt": 10, "weight": "normal", "color": "#222222"},
+    "heading": {"size_pt": 11, "weight": "bold", "color": "#222222"},
+    "annotation": {"size_pt": 9, "weight": "normal", "color": "#444444"}
+  },
+  "line_styles": {
+    "normal": {"width_pt": 0.7, "color": "#334155", "dash": "solid", "arrow": "end"},
+    "group": {"width_pt": 0.7, "color": "#64748B", "dash": "dashed", "arrow": "none"},
+    "feedback": {"width_pt": 0.7, "color": "#64748B", "dash": "dashed", "arrow": "end"}
+  },
+  "node_styles": {
+    "process": {"shape": "rounded", "line": "normal", "font": "body", "fill": "#F1F5F9", "padding_mm": 2},
+    "section": {"shape": "rectangle", "line": "group", "font": "heading", "fill": "#FFFFFF", "padding_mm": 2},
+    "decision": {"shape": "diamond", "line": "normal", "font": "body", "fill": "#FFFFFF", "padding_mm": 2},
+    "label": {"shape": "text", "line": "normal", "font": "heading", "fill": "#FFFFFF", "padding_mm": 1}
+  },
+  "sizes": {"standard": [38, 14], "wide": [70, 14], "title": [120, 12]},
+  "layout_tokens_mm": {"column-pitch": 52, "row-pitch": 27},
+  "nodes": [], "containers": [], "edges": [], "alignments": [],
+  "ocr_exclusions": [], "allowed_overlaps": [], "unresolved": []
+}

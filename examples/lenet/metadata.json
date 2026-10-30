@@ -1,0 +1,18 @@
+{
+  "dpi": 600,
+  "dimensions_px": [
+    5693,
+    1596
+  ],
+  "pdf_sha256": "eb9b810e9304bb354ed1f0d3a20e4544923b1650a22345fb6df1d388b0314ffc",
+  "png_sha256": "e0b192e9219ec52656536ea06ec3c04c6b37358bbec05d81a5ad7cc328e4ec06",
+  "possible_page_clipping": false,
+  "method": "direct-vector-pdf-rasterization",
+  "id": "lenet",
+  "title": "LeNet",
+  "mode": "source-assisted style correction after image-only freeze",
+  "source": "maximxue/Deep-Learning-TikZ, chapter5 - LeNet",
+  "limitations": "Fonts and line widths corrected using source after image-only reconstruction; not an image-only final.",
+  "note": "README image pair only; complete editable results and review/OCR records remain local.",
+  "input_sha256": "4ff5f5116b003aa8f82373d0bd0ab7a626ae6f6893fc8b46997f65f100e4b639"
+}

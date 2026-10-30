@@ -1,0 +1,103 @@
+{
+  "repository": "https://github.com/maximxue/Deep-Learning-TikZ",
+  "commit": "5d9cc04970c164d3c8966e70e181cf9369bad803",
+  "license_file": "references/Deep-Learning-TikZ/LICENSE.txt",
+  "rendering": "Existing upstream single-page PDFs rasterized with pdftoppm -scale-to 2600; no architecture edits",
+  "evaluation_rule": "Image-only reconstruction. Do not read reference_tex during reconstruction; use it after output is frozen for review. Do not use held-out case source as a template.",
+  "recommended_first_case": "02-lenet",
+  "cases": [
+    {
+      "id": "01-mlp",
+      "title": "MLP: dense connections",
+      "input_png": "test-images/deep-learning-tikz/01-mlp.png",
+      "source_pdf": "references/Deep-Learning-TikZ/tikz/chapter1 - Feedforward Neural Network.pdf",
+      "reference_tex": "references/Deep-Learning-TikZ/tikz/chapter1 - Feedforward Neural Network.tex",
+      "dimensions_px": [
+        2600,
+        1342
+      ],
+      "image_sha256": "075f8446b1a02dcd7de17d62ea87412bb0e29faa4c49cd9cd00d6b4443483061",
+      "source_pair_status": "Same-basename upstream PDF/TeX; not recompiled or verified equivalent",
+      "conversion_status": "not_started"
+    },
+    {
+      "id": "02-lenet",
+      "title": "LeNet: feature-map stacks",
+      "input_png": "test-images/deep-learning-tikz/02-lenet.png",
+      "source_pdf": "references/Deep-Learning-TikZ/tikz/chapter5 - LeNet.pdf",
+      "reference_tex": "references/Deep-Learning-TikZ/tikz/chapter5 - LeNet.tex",
+      "dimensions_px": [
+        2600,
+        691
+      ],
+      "image_sha256": "5ec0303650d6f068dea026f5f84f84a512e0e4c6276ff0b5f8fa43ac62455869",
+      "source_pair_status": "Same-basename upstream PDF/TeX; not recompiled or verified equivalent",
+      "conversion_status": "image-only-completed; source-assisted-style-corrected",
+      "runs": [
+        "outputs/lenet-image-only-001",
+        "outputs/lenet-source-assisted-001"
+      ]
+    },
+    {
+      "id": "03-lstm",
+      "title": "LSTM: gates and curved paths",
+      "input_png": "test-images/deep-learning-tikz/03-lstm.png",
+      "source_pdf": "references/Deep-Learning-TikZ/tikz/chapter6 - LSTM.pdf",
+      "reference_tex": "references/Deep-Learning-TikZ/tikz/chapter6 - LSTM.tex",
+      "dimensions_px": [
+        2600,
+        1486
+      ],
+      "image_sha256": "f78f9fae634af8a2ebdf04590ff8ba8d0ba62824a72144fde7c3708aede8e821",
+      "source_pair_status": "Same-basename upstream PDF/TeX; not recompiled or verified equivalent",
+      "conversion_status": "not_started"
+    },
+    {
+      "id": "04-resnet",
+      "title": "ResNet: repeated residual blocks",
+      "input_png": "test-images/deep-learning-tikz/04-resnet.png",
+      "source_pdf": "references/Deep-Learning-TikZ/tikz/chapter5 - ResNet.pdf",
+      "reference_tex": "references/Deep-Learning-TikZ/tikz/chapter5 - ResNet.tex",
+      "dimensions_px": [
+        2600,
+        1124
+      ],
+      "image_sha256": "fad9b0135d3d56d26aa15efe85ff9d7b07ffcc3039b18bdf5020616ae9600b90",
+      "source_pair_status": "Same-basename upstream PDF/TeX; not recompiled or verified equivalent",
+      "conversion_status": "not_started"
+    },
+    {
+      "id": "05-alexnet",
+      "title": "AlexNet: 3D tensors and branches",
+      "input_png": "test-images/deep-learning-tikz/05-alexnet.png",
+      "source_pdf": "references/Deep-Learning-TikZ/tikz/chapter5 - AlexNet.pdf",
+      "reference_tex": "references/Deep-Learning-TikZ/tikz/chapter5 - AlexNet.tex",
+      "dimensions_px": [
+        2600,
+        1077
+      ],
+      "image_sha256": "600783a20762deba2330a69e2a79e158423631b691d4347e91ba227e48a7ca93",
+      "source_pair_status": "Same-basename upstream PDF/TeX; not recompiled or verified equivalent",
+      "conversion_status": "not_started"
+    },
+    {
+      "id": "06-transformer",
+      "title": "Transformer: groups and detail views",
+      "input_png": "test-images/deep-learning-tikz/06-transformer.png",
+      "source_pdf": "references/Deep-Learning-TikZ/tikz/chapter8 - Transformer Architecture Extended.pdf",
+      "reference_tex": "references/Deep-Learning-TikZ/tikz/chapter8 - Transformer Architecture Extended.tex",
+      "dimensions_px": [
+        2600,
+        1525
+      ],
+      "image_sha256": "554ba781fe8eeabc2a4dc97b3b6eeae0817592586c9af5237bb79365effa0c9f",
+      "source_pair_status": "Same-basename upstream PDF/TeX; not recompiled or verified equivalent",
+      "conversion_status": "image-only-fidelity-failed; source-assisted-corrected-accepted",
+      "runs": [
+        "outputs/transformer-image-only-001",
+        "outputs/transformer-source-assisted-001"
+      ],
+      "audit": "outputs/transformer-source-assisted-001/source-audit.json"
+    }
+  ]
+}
