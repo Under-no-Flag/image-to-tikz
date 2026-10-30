@@ -1,0 +1,23 @@
+{
+  "dpi": 600,
+  "dimensions_px": [
+    3560,
+    1530
+  ],
+  "pdf_sha256": "f33172bf101657cc9b0cde73d86f14e5a38827793c73d6d0491f06e49418d475",
+  "png_sha256": "9288f5e581bf723cc4bf652a9bd5b5e1849d5b177d42c1ee294d1384a666b960",
+  "possible_page_clipping": false,
+  "method": "direct-vector-pdf-rasterization",
+  "id": "threshold-math",
+  "title": "阈值与切换曲线",
+  "mode": "image-only with PaddleOCR; independently accepted as qualitative schematic",
+  "source": "User-supplied two-panel threshold/switching diagram; bibliographic identity not supplied",
+  "limitations": "Native cubic curves and four tangent arrow marks preserve qualitative topology. Small curvature and typography differences remain; analytical functions were not recovered.",
+  "status": "passed",
+  "input_sha256": "744cd9f577f20556dddb29235bd7792a8ca6145512220cdf002aa340eb9b118d",
+  "input_dimensions_px": [
+    1242,
+    525
+  ],
+  "note": "README image pair only; full artifacts remain local. These math cases use unpublished development extensions."
+}

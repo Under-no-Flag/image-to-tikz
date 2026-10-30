@@ -21,6 +21,8 @@ PaddleOCR-VL 校对文字，agent 从图片恢复组件与连接，确定性渲�
 | GMAN Figure 4 | 仅图体，不含页面其他文字 | 3978 × 1852 |
 | 轨道交通路线图 | 图片重建，首轮后局部修正 | 4094 × 8786 |
 | 景区研究路线图 | 图片重建，首轮后局部修正 | 3601 × 4778 |
+| Lorenz / 稀疏回归 | **严格忠实复刻未通过**；轨迹与波形为示意近似 | 4432 × 2901 |
+| 阈值与切换曲线 | 通过独立定性复刻验收 | 3560 × 1530 |
 
 ### LeNet：堆叠数、特征图比例、感受野连接
 
@@ -84,6 +86,30 @@ PaddleOCR-VL 校对文字，agent 从图片恢复组件与连接，确定性渲�
 </table>
 
 实际 OCR 支持 **9 / 52 个文字节点**，另 43 个经图像人工转录与复核；不能把返回块映射率当作全图识别准确率。两张中文路线图都经过修订，不宣称一次无误转换。计时与首轮差异见[测试说明](docs/testing-and-generality.md)。
+
+### Lorenz 与稀疏回归：公式、矩阵与密集科学曲线
+
+**结论：严格忠实复刻未通过（limited）。** 公式、七个非零系数、稀疏位置、轴标签与箭头核对正确；两幅吸引子环线和三条时间序列仍明显不同。右图保留为可编辑示意，不作为成功复刻或原始科学数据恢复的案例。
+
+<table>
+<tr><th width="50%">输入图</th><th width="50%">转换后 · 600 DPI · 轨迹近似</th></tr>
+<tr><td><a href="examples/lorenz-math/input.png"><img src="examples/lorenz-math/input.png" alt="Lorenz与稀疏回归输入图"></a></td><td><a href="examples/lorenz-math/output.png"><img src="examples/lorenz-math/output.png" alt="Lorenz与稀疏回归转换图 · 轨迹近似"></a></td></tr>
+</table>
+
+双叶轨迹使用规则几何拟合，波形使用独立 RK4 示例，未恢复原图采样。PaddleOCR 完成 4 个任务，但系数表只识别出零值，非零数值均按图人工校对。该测试表明：可编译、可编辑与公式正确，不能代替对曲线轮廓、交叉关系和峰谷位置的忠实度检查。
+
+### 阈值与切换曲线：数学标注与中段箭头
+
+**结论：通过定性图像复刻验收。** 数学上下标、字母 o、红蓝曲线拓扑、四条切换路径及其中段箭头方向经过独立复核；保留少量曲率与字体差异，不宣称恢复了原解析函数。
+
+<table>
+<tr><th width="50%">输入图</th><th width="50%">转换后 · 600 DPI</th></tr>
+<tr><td><a href="examples/threshold-math/input.png"><img src="examples/threshold-math/input.png" alt="阈值与切换曲线输入图"></a></td><td><a href="examples/threshold-math/output.png"><img src="examples/threshold-math/output.png" alt="阈值与切换曲线转换图"></a></td></tr>
+</table>
+
+坐标轴、Bézier 曲线、公式与沿切线放置的箭头均为原生 TikZ。真实 PaddleOCR 完成 4 个任务；将左下标 o 误读为 0 的结果已按原图校正。两次构建、一次视觉修订后通过验收。
+
+这两个数学案例使用本地开发版扩展；v0.1.0 安装包尚不包含本轮新增能力。这里仅发布输入图与高清转换图，完整任务产物保留在本地。
 
 ## 安装与教程
 

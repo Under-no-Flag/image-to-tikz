@@ -1,0 +1,23 @@
+{
+  "dpi": 600,
+  "dimensions_px": [
+    4432,
+    2901
+  ],
+  "pdf_sha256": "57db593d6e5acc155a0f0a343d0f5f331325520e349bf1e3c60e3c4b3338c27d",
+  "png_sha256": "522784ca751fb9de5eb72fa894dc76507316aab0eb0f5d608f8cb8e2b2bc01f4",
+  "possible_page_clipping": false,
+  "method": "direct-vector-pdf-rasterization",
+  "id": "lorenz-math",
+  "title": "Lorenz 与稀疏回归",
+  "mode": "image-only with PaddleOCR; strict visual fidelity not accepted",
+  "source": "User-supplied Lorenz / sparse-regression diagram; bibliographic identity not supplied",
+  "limitations": "Equations, nonzero coefficients and sparse supports match. Two attractor portraits and three waveforms visibly differ; editable schematic only, not recovered scientific data.",
+  "status": "limited",
+  "input_sha256": "d39f4a2f0acc73777b61faa18990e5f190022079ce9d20e46cf1bead692141a1",
+  "input_dimensions_px": [
+    1747,
+    1084
+  ],
+  "note": "README image pair only; full artifacts remain local. These math cases use unpublished development extensions."
+}
